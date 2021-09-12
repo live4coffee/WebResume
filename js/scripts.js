@@ -32,3 +32,13 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+$(function() {
+	var b = $("#button");
+	var w = $("#wrapper");
+	var l = $("#list");
+	b.click(function() {
+		w.toggleClass('open'); /* <-- toggle the application of the open class on click */
+	});
+});
+
