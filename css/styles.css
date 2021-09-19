@@ -97,7 +97,10 @@ hr {
 }
 
 hr:not([size]) {
-  height: 1px;
+  height: 4px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
@@ -11283,6 +11286,6 @@ header {
 }
 
 section {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
