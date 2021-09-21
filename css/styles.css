@@ -7878,6 +7878,7 @@ textarea.form-control-lg {
 .bg-gradient {
   background-image: url(/assets/background-cloud.png);
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .user-select-all {
